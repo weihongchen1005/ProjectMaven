@@ -1,7 +1,7 @@
 package com.weihong;
 
 public class HelloWorld {
-	//Exercise #1
+	// Exercise #1
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Hello World");

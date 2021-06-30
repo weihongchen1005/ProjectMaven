@@ -9,9 +9,9 @@ public class TestApp {
 		i1.setNumber("Number");
 		i1.setQuantity(8);
 		i1.setPrice(4.0);
-		
+
 		double amount = i1.getInvoiceAmount();
-		
+
 		System.out.print("and the invoice amount is " + amount);
 	}
 

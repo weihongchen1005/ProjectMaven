@@ -8,7 +8,7 @@ public class DateTest {
 		date.setDay(28);
 		date.setMonth(6);
 		date.setYear(2021);
-		
+
 		System.out.print(date);
 	}
 

@@ -73,19 +73,19 @@ public class Primitives {
 		default:
 			System.out.println("None of the alphabet is a, b, or c ");
 		}
-		
-		Scanner sc = new Scanner(System.in);        
+
+		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter a Number!");
-		int question = sc.nextInt(); 
+		int question = sc.nextInt();
 		System.out.println("Your number is " + question);
 		int total = question;
 		while (question != -1) {
-		    System.out.println("Enter a Number or enter -1 to stop");
-		    question = sc.nextInt(); 
-		    System.out.println("Your number is " + question);
-		    if(question != -1) {
-		    	total += question;
-		    }
+			System.out.println("Enter a Number or enter -1 to stop");
+			question = sc.nextInt();
+			System.out.println("Your number is " + question);
+			if (question != -1) {
+				total += question;
+			}
 		}
 		System.out.println("Total is " + total);
 	}
